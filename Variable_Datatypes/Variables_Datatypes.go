@@ -44,5 +44,6 @@ GO`  //Using BackTicks we can even Print Afte line breaks
 	const myVar2 string = "Temp" //Constants also exists in GO, cant change the const later and also does not need to be used for zero error unlike variable
     // dont need to print myVar2 here for zero error but we need to use variable if intialized!!
 
-	
+	var err error // error datatype default value=nil
+	fmt.Println(err)
 }
